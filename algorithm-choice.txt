@@ -1,0 +1,1 @@
+UCB1 (Upper Confidence Bound) — rewards are bounded, continuous-valued (not just 0/1), so UCB1 is appropriate for bounded stationary rewards, while Bernoulli Thompson Sampling doesn’t match the reward type and epsilon-greedy is less efficient because it explores uniformly rather than using confidence bounds.
